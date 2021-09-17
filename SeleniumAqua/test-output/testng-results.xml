@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-16T14:02:23 IST" name="Default suite" finished-at="2021-09-16T14:02:44 IST" duration-ms="20812">
+  <suite started-at="2021-09-17T20:35:52 IST" name="SampleSuite2" finished-at="2021-09-17T20:36:40 IST" duration-ms="47443">
     <groups>
     </groups>
-    <test started-at="2021-09-16T14:02:23 IST" name="Default test" finished-at="2021-09-16T14:02:44 IST" duration-ms="20812">
-      <class name="com.aqua.selenium.VerifyLogin">
-        <test-method signature="verifyValidLogin()[pri:0, instance:com.aqua.selenium.VerifyLogin@15aab8c6]" started-at="2021-09-16T14:02:23 IST" name="verifyValidLogin" finished-at="2021-09-16T14:02:44 IST" duration-ms="20714" status="PASS">
+    <test started-at="2021-09-17T20:35:52 IST" name="SampleTest" finished-at="2021-09-17T20:36:13 IST" duration-ms="20805">
+      <class name="com.aqua.selenium.CrossBrowserScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.aqua.selenium.CrossBrowserScript@2f217633]" started-at="2021-09-17T20:35:52 IST" name="setup" finished-at="2021-09-17T20:35:58 IST" duration-ms="6224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyValidLogin -->
-      </class> <!-- com.aqua.selenium.VerifyLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML()[pri:0, instance:com.aqua.selenium.CrossBrowserScript@2f217633]" started-at="2021-09-17T20:35:58 IST" name="testParameterWithXML" finished-at="2021-09-17T20:36:13 IST" duration-ms="14516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.aqua.selenium.CrossBrowserScript -->
+    </test> <!-- SampleTest -->
+    <test started-at="2021-09-17T20:36:13 IST" name="Sample2Test" finished-at="2021-09-17T20:36:40 IST" duration-ms="26497">
+      <class name="com.aqua.selenium.CrossBrowserScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.aqua.selenium.CrossBrowserScript@23c30a20]" started-at="2021-09-17T20:36:13 IST" name="setup" finished-at="2021-09-17T20:36:22 IST" duration-ms="9072" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML()[pri:0, instance:com.aqua.selenium.CrossBrowserScript@23c30a20]" started-at="2021-09-17T20:36:22 IST" name="testParameterWithXML" finished-at="2021-09-17T20:36:40 IST" duration-ms="17421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.aqua.selenium.CrossBrowserScript -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- SampleSuite2 -->
 </testng-results>

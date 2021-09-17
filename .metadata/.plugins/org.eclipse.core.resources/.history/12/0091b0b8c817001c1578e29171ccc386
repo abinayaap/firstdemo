@@ -6,13 +6,13 @@
 <test name="SampleTest" >
 <parameter name="browser" value="Chrome"/>
 <classes>
-<class name="com.aqua.selenium.CrossBrowserScript" />
+<class name="com.SeleniumAqua.CrossBrowserScript" />
 </classes>
 </test>
 <test name="Sample2Test" >
 <parameter name="browser" value="Firefox"/>
 <classes>
-<class name="com.aqua.selenium.CrossBrowserScript" />
+<class name="com.SeleniumAqua.CrossBrowserScript" />
 </classes>
 </test>
 
